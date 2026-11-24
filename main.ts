@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Say What Actually Broke — one-liner entry.
+// Say What Actually Broke — one-liner entry (Wave 1 revision).
 // The entry line, verbatim (173 chars). Written to entry.txt with no
 // trailing newline.
 const LINE = `Your request timed out because our retry logic just DDoSed our own database. Clicking "Try Again" won't help, but it will buzz our on-call engineer's watch during his sister's vows.`;
